@@ -1,0 +1,84 @@
+\documentclass[12pt]{article}
+
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\title{CSE311\\Section 5\\Summer 2021 \\Online Movie Ticket Booking System}
+\author{Group 5\\Md. Rakibul Hasan 1811194042\\Nishat Tamanna 1811569642\\Muktadir Mubassir 1813243642}
+
+\begin{document}
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.7]{NSU.png}
+\maketitle
+\end{figure}
+\maketitle
+\makeauthor
+\clearpage
+\tableofcontents
+\clearpage
+
+\section{Project Overview}
+\clearpage
+
+\subsection{Our proposed project}
+The main idea of our project will be to build a website about online movie ticket booking that allows people to book movie tickets online as well as acquire information about movies and theatres
+\subsection{Description of the idea}
+An online booking system is a tool that movie theatre owners use to manage their operations online. This system is intended for the general public who enjoy watching movies but do not want to stand in a queue for tickets for a long period of time. The main parts that will be included in our project are:
+i. There is password protected account system.
+ii. There is movie section, Theatre section and ShowTime section.
+iii. The website will find out what movies are currently showing or what films are scheduled to be shown in the near future.
+\subsection{Motivation}
+Technology The goal of this system is to introduce people to a new level of internet use that is extremely beneficial. People are overly reliant on the Internet. So, the motivation is to use it in a way that will benefit people in their daily lives rather than just wasting our time by using it.
+i.	To provide a simple and user-friendly mobile-responsive movie ticketing system.
+ii.	To obtain statistic information from the booking record
+iii.	Provide a system for users to check film data by clicking on a specific film on the main page (e.g., The cinema which will show this films).
+iv.	To provide a secure e-payment system with payment option for customers.
+\clearpage
+
+\section{Related work/Literature Review}
+\clearpage
+
+\subsection{Traditional Theatre Booking Systems}
+The booking system was introduced so that customers can purchase tickets for a certain show well in advance, avoiding being turned away at the last minute. The theatre's administration also prefers that tickets be sold as soon as possible, both for financial reasons and to minimize a long line at the door right before the show begins. But it was not easy before electronic printers were introduced in box office. The common method for booking a seat and buying a ticket would be a face-to-face negotiation between the customer and the ticket seller. 
+Seats were also sold over the phone or over the mail to the customers who could not make it to the box office. The most time-consuming of all the approaches was the one through mail order. In the most basic case, the customer would mail a cheque together with a stamped, self-addressed envelope containing an order for the desired theatre seats, date, and time.  If the order was placed early enough, the box office would reserve the specified seats and mail the tickets to the customer, who would get them at least two days after the order was placed. If the order was placed after the targeted seats had been sold, the box office would be required to provide the customer a refund along with a list of the available seats and a reminder to re-purchase as soon as possible. All these hassles demanded a new system which can save both time and energy of the customers. With the introduction of internet in our lives, a lot of online systems were created.
+\subsection{Modern Theatre Booking Systems}
+We looked into the numerous movie-booking websites and apps that were available. We concentrated our research on the online systems of countries such as the United States, England, Nepal, Singapore, and India. During our search and investigation, we concentrated mostly on the platform and framework on which the application was built. In addition to this, many aspects connected to other systems were examined in order to determine what features have already been incorporated and what features can be added to the system. From the past 18 years in South Africa a seed of an idea of book my show was planted. The site was started in 1999, and since then it is one of the most famous online movie booking system. The web site mostly gained its popularity between the years 2006-2010. Book My Show was awarded 'The Hottest Company of the Year-2011-12 and “'The Company to watch out for' at the prestigious CNBC Young Turks Award. In May 2016 BookMyShow awarded ‘Best Omni-channel Customer Experience Brand’ at the One Direct Quest Customer Experience (QuestCX) Awards.It uses a PHP based web site. The web site provides detailed information regarding movies. There are columns in which reviews can be added and published on the web page. User login and sign up are the other features with the help of which user can have authorized access to the web site. Ticketplease.com is a well-known online movie ticketing service in India that also sells tickets for college concerts, plays, and sporting events. It allows users to purchase tickets online and offers a variety of deals and features to keep them entertained. Ticketplease.com has partnered with a number of renowned multiplexes as well as a number of single screen theatres across India to give clients with the ability to purchase tickets practically anywhere. The service is aimed not only for movie buffs, but also at music and sports lovers who want to buy tickets to concerts and events all throughout India. It is a PHP-based system as well. In the year of 2016, Golden Village Pictures of Singapore brought SULLY and PASSENGERS, both produced by Village Roadshow Pictures, and Jackie Chan’s RAILROAD TIGERS. When it comes to the software, it makes use of Bootstrap for responsive web design. PHP and SQL database connectivity are used in the back end. Purchase Right Away Other ticket booking alternatives include Check Booking and Check Buy. Other modules and capabilities of the website include shop products, movie coupon code & cards, and corporate.Fandango is another well-known movie-booking website. It's a firm established in the United States that sells movie tickets. It includes details on the most recent films, theater listings, top box office numbers, entertainment news, trailers, exclusive videos, search banners, and more! Join Fandango is a way to become a Fandango authorized user. The website's main modules are movie booking and offers. It is also a PHP based back end system.
+\subsection{Problems in the existing systems}
+While researching these technologies, it was discovered that the online movie system has numerous faults. The main issue is speed, which affects practically all systems. The system is occasionally unable to sustain the strain due to increased traffic and demand on the online system. 
+\clearpage
+
+\section{Theory}
+\clearpage
+
+\subsection{Analysis of the Proposed System}
+The proposed system is more reliable, entertaining and easier than the present system. The solution targets those users who do not have spare time to stand in queue for booking tickets. This proposes an easy way of ordering and paying for the tickets without any delays and inconvenience. It enables users book tickets without physically present at the theater booking center. Customers who book tickets on their mobile phones will receive an instant message (m-ticket). By splashing the M- ticket at the counter of the multiplex, the client can receive physical tickets. No longer issue tickets to staff at the multiplex complex manual ticket availability and tracking system is needed. Ticket information can be accessed at any time for verification, which is safely stored in a database
+\subsection{Data Requirements}
+In collateral with stating the data requirements, it is useful to specify the known functional requirements of the application. These composed of user defined operations that will be applied to the database. The functional requirements are used as a origin of application software design. Requirements analysis is tender in order to comprehend the problem, which is to be resolved. That is very important act for the development of database system. The data requirements are used as a origin of database design. These requirements should be explained in as full and complete configuration as feasible. The Data-requirements are given as follows:-
+User Module
+User Registration: User Register with Name, A Username, Password, E-mail address.
+User Login: 
+i.	User Can Book the Ticket After Log in.
+ii.	User Login with User Name and Password.
+Check Availability:
+i.	After Login, User, Can Search Movie from Movie List
+ii.	If Ticket is Available User Can Book Ticket.
+Book Ticket:
+i.	Book ticket by specifying username.
+ii.	Then click the buy ticket button. 
+iii.	Then it will add on the ticket purchase history. Then click the print button to print the ticket. Then it is done.
+Admin Control
+Admin User Login:
+.	Admin can Login with Admin User Name and Password.
+Show Manage:
+•	Admin Can Add Show Name and Show Time.
+
+Movie Manage: 
+i.	Admin Can Add New Movie. 
+ii.	Admin Can Delete Movie.
+\subsection{Functional Requirements}
+i. There should be a process in which both the admin and customer can login to the website and can-do others operation.
+ii. There will a “point and click” method for committing the order for the customer. 
+iii. According to the data which will be selected by the user by that via a query The ShowTime of the movies will be generated.
+
+
+\end{document}
